@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="1dp"
+        android:padding="13dp"
+        android:background="@drawable/white_light_rect">
+
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/s9plus"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samsung Galaxy S9 Plus"
+                android:textSize="13sp"
+                android:textColor="@color/red"
+                android:fontFamily="@font/roboto_regular"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#acacac"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Price : "/>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 30,000"
+                    android:textSize="13sp"
+                    android:textColor="@color/txt_color"
+                    android:layout_marginLeft="4dp"
+                    android:fontFamily="@font/roboto_regular"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#acacac"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Qty : "/>
+
+                <TextView
+                    android:id="@+id/qty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textSize="13sp"
+                    android:textColor="@color/txt_color"
+                    android:layout_marginLeft="4dp"
+                    android:fontFamily="@font/roboto_regular"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#acacac"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Date : "/>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="28/01/2019 5:00PM"
+                    android:textSize="13sp"
+                    android:textColor="@color/txt_color"
+                    android:layout_marginLeft="4dp"
+                    android:fontFamily="@font/roboto_regular"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#acacac"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Order No : "/>
+
+                <TextView
+                    android:id="@+id/order_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#5212345"
+                    android:textSize="13sp"
+                    android:textColor="@color/txt_color"
+                    android:layout_marginLeft="4dp"
+                    android:fontFamily="@font/roboto_regular"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

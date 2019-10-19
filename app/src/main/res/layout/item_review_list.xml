@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Henry"
+            android:textSize="13sp"
+            android:textColor="@color/txt_color"
+            android:fontFamily="@font/roboto_medium"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="3"
+            android:layout_marginTop="4dp"
+            android:theme="@style/RatingBar"
+            style="?android:attr/ratingBarStyleSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#acacac"
+                android:textSize="11sp"
+                android:layout_gravity="center"
+                android:text="20 Feb 2019"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Lorem Ipsum is simply dummy text of the prnting and typesetting industry.Lorem Ipsum is simply dummy text of and typesetting industry."
+            android:textSize="12sp"
+            android:lineSpacingExtra="3dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="#8f909e"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:textColor="@color/red"
+            android:textSize="12sp"
+            android:text="More"
+            android:fontFamily="@font/roboto_medium" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f2f2f2"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="7dp"/>
+
+</LinearLayout>

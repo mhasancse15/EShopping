@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/red">
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_back_white"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Payment"
+        android:layout_gravity="left"
+        android:layout_marginLeft="40dp"/>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15sp"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_supermarket"/>
+
+
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:text="2"
+            android:layout_gravity="right"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="8sp"
+            android:fontFamily="@font/roboto_regular"
+            android:background="@drawable/white_circle"/>
+
+
+    </FrameLayout>
+
+</android.support.v7.widget.Toolbar>

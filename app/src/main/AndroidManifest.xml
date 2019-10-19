@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mhasancse.eshopping">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".uiux.design.eshoppinguikit.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".uiux.design.eshoppinguikit.LoginActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.SignupActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.EShoppingListActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.HomePageActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.NavigationActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.ProductListActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.ProductGridActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.ProductDetailActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.MyCartActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.AddAddressActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.PaymentActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.MyOrderActivity" />
+        <activity android:name=".uiux.design.eshoppinguikit.SucessfullActivity"></activity>
+    </application>
+
+</manifest>

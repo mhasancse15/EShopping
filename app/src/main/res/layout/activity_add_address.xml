@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uiux.design.eshoppinguikit.AddAddressActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_product_list"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="24dp"
+                android:text="Address"
+                android:layout_marginLeft="19.5dp"
+                android:textColor="@color/txt_color"
+                />
+            <EditText
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:hint="XYZ"
+                android:textSize="12sp"
+                android:inputType="text"
+                android:layout_marginLeft="19.5dp"
+                android:textColorHint="#7137474f"
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3c000000"
+                android:layout_marginTop="7.2dp"
+                android:layout_marginLeft="19.5dp"
+                android:layout_marginRight="19.5dp"/>
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="24dp"
+                android:text="Permenent Address"
+                android:layout_marginLeft="19.5dp"
+                android:textColor="@color/txt_color"
+                />
+            <EditText
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textSize="12sp"
+                android:inputType="text"
+                android:hint="Enter your full address"
+                android:layout_marginLeft="19.5dp"
+                android:textColorHint="#7137474f"
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3c000000"
+                android:layout_marginTop="7.2dp"
+                android:layout_marginLeft="19.5dp"
+                android:layout_marginRight="19.5dp"/>
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="24dp"
+                android:text="Area"
+                android:layout_marginLeft="19.5dp"
+                android:textColor="@color/txt_color"
+                />
+            <EditText
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textSize="12sp"
+                android:inputType="text"
+                android:hint="Enter your full address"
+                android:layout_marginLeft="19.5dp"
+                android:textColorHint="#7137474f"
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3c000000"
+                android:layout_marginTop="7.2dp"
+                android:layout_marginLeft="19.5dp"
+                android:layout_marginRight="19.5dp"/>
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="24dp"
+                android:text="City"
+                android:layout_marginLeft="19.5dp"
+                android:textColor="@color/txt_color"
+                />
+            <EditText
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="#00000000"
+                android:hint="Enter Your City"
+                android:inputType="text"
+                android:layout_marginLeft="19.5dp"
+                android:textColorHint="#7137474f"
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3c000000"
+                android:layout_marginTop="7.2dp"
+                android:layout_marginLeft="19.5dp"
+                android:layout_marginRight="19.5dp"/>
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="24dp"
+                android:text="State"
+                android:layout_marginLeft="19.5dp"
+                android:textColor="@color/txt_color"
+                />
+            <EditText
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textSize="12sp"
+                android:inputType="text"
+                android:hint="Enter State"
+                android:layout_marginLeft="19.5dp"
+                android:textColorHint="#7137474f"
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3c000000"
+                android:layout_marginTop="7.2dp"
+                android:layout_marginLeft="19.5dp"
+                android:layout_marginRight="19.5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Save"
+        android:background="@color/red"
+        android:padding="15dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"/>
+
+</RelativeLayout>

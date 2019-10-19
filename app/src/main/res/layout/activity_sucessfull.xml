@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="uiux.design.eshoppinguikit.SucessfullActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_color"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Congratulation,your order purchase on the way"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_shopping_basket_red"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Number"
+        android:textSize="16sp"
+        android:textColor="#acacac"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_color"
+        android:textSize="20sp"
+        android:text="#541234"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_medium"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Order"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_red"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue Buying"
+        android:textColor="@color/txt_color"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_dark"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@color/red">
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigation_menu"
+        android:src="@drawable/ic_menu3"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E Shopping"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="15sp"
+        android:src="@drawable/ic_supermarket"/>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EShoppingUIKIT</string>
+
+    <string name="rs"><strike>Rs 1000</strike></string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="offer"><u>Rs 40000</u></string>
+    <string name="offer1"><strike>Rs 40000</strike></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rs_2500"><strike>Rs. 2500</strike></string>
+</resources>
